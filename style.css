@@ -143,6 +143,10 @@ body{
     border: none;
 }
 
+.energy button:hover{
+    background-color: aqua;
+}
+
 .energy-title{
     font-size: 20px;
     font-weight: bold;
@@ -171,6 +175,10 @@ body{
     padding: 48px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 24px;
+}
+
+.news-art:hover{
+    background-color: #e0bf71;
 }
 
 .news-img img{
@@ -230,6 +238,10 @@ body{
     border-radius: 16px;
     background-color: #FFFFFF;
     border: none;
+}
+
+.donation-style:hover{
+    background-color: #e0bf71;
 }
 
 .wow-col{
@@ -298,4 +310,28 @@ input{
 .subscribe-field-button .btn{
     border-radius: 0 5px 5px 0;
     height: 100%;
+}
+
+/* Quote */
+
+.quote{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+.quote-container{
+    text-align: left;
+    border-radius: 16px;
+    background-image: url("/B11A1--assignment-1/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+    background-position: 20px 20px;
+}
+
+.quote-container h2{
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+
+.quote-padding{
+    padding: 48px 24px;
 }
