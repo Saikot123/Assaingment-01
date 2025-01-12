@@ -29,6 +29,11 @@ body{
     margin-bottom: 80px;
 }
 
+.section-width-new{
+    width: 1280px;
+    margin: 0 auto;
+}
+
 .common-heading{
     color: #0E0E0E;
     font-weight: bold;
@@ -338,4 +343,8 @@ input{
 
 .quote-padding{
     padding: 48px 24px;
+}
+
+.subscribe{
+    padding-bottom: 0px;
 }
