@@ -7,6 +7,8 @@
 
 body{
     background-color: #F1F1F3;
+    font-family: "Fira Sans", serif;
+    font-style: normal;
 }
 
 .primary-col{
@@ -46,6 +48,11 @@ body{
     border-radius: 8px;
     text-align: center;
     border: none;
+}
+
+.btn:hover{
+    background-color: #4abda0;
+    transform: scale(1.1);
 }
 
 .btn-01{
@@ -250,4 +257,45 @@ input{
     justify-content: center;
     align-items: center;
     padding-top: 32px;
+}
+
+/* Subscribe */
+
+.subscribe-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 80px 100px;
+    border-radius: 24px;
+    border: none;
+}
+
+.subscribe-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 64px;
+    gap: 16px;
+}
+
+.subscribe-field-container{
+    display: flex;
+    gap: 0px;
+}
+
+.subscribe-field-input{
+    padding: 18px 40px;
+    background-color: #FFFFFF;
+    padding-right: 363px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.subscribe-field-button .btn{
+    border-radius: 0 5px 5px 0;
+    height: 100%;
 }
