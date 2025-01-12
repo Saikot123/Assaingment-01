@@ -84,6 +84,10 @@ body{
 
 /* Banner */
 
+.banner{
+    border-radius: 24px;
+}
+
 .banner-container{
     display: flex;
     gap: 64px;
